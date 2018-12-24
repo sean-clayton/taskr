@@ -51,7 +51,7 @@ config :phoenix, :plug_init_mode, :runtime
 config :taskr, Taskr.Repo,
   username: "postgres",
   password: "postgres",
-  database: "taskr_dev",
+  database: "taskr_readstore_dev",
   hostname: "localhost",
   pool_size: 10
 
